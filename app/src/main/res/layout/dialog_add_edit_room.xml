@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/primary_10">
+
+    <EditText
+        android:id="@+id/roomNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Name"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/roomTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Type"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/roomPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/roomImageUrlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image URL"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/roomDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/saveRoomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="@color/primary_100"
+        android:textColor="@color/white"/>
+</LinearLayout> 

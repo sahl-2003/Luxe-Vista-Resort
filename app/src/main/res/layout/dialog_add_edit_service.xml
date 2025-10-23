@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFF5F5">
+
+    <EditText
+        android:id="@+id/serviceNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Name"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/serviceTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Type"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/servicePriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/serviceImageUrlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image URL"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/serviceAvailableSlotsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Available Slots"
+        android:inputType="number"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/saveServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"/>
+</LinearLayout> 

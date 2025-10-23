@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563422803153",
+    "project_id": "luxevistaresortapp-fad41",
+    "storage_bucket": "luxevistaresortapp-fad41.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563422803153:android:dc668b1595b55178d5c1f0",
+        "android_client_info": {
+          "package_name": "com.example.luxevistaresortapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu9zKyCxDZo5NB4aVrf4wqFgCd_O74lrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

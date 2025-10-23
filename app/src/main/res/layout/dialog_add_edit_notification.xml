@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:minWidth="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Notification"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_100"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Title Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Notification Title"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/primary_100"
+        app:hintTextColor="@color/primary_100">
+
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="2"
+            android:textColor="@color/black" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Message Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Notification Message"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/primary_100"
+        app:hintTextColor="@color/primary_100">
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:maxLines="5"
+            android:textColor="@color/black" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Type Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Type"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_100"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipient Type"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_100"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/recipientTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/recipientIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipient"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_100"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/recipientIdSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+
+    <!-- Active Switch -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Active"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_100" />
+
+        <Switch
+            android:id="@+id/activeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+    </LinearLayout>
+
+    <!-- Expiry Date and Time -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expiry Settings"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_100"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/expiryDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Expiry Date: Jan 08, 2025"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/primary_100"
+        app:strokeColor="@color/primary_100"
+        app:strokeWidth="1dp"
+        app:cornerRadius="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/expiryTimeButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Expiry Time: 12:00"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/primary_100"
+        app:strokeColor="@color/primary_100"
+        app:strokeWidth="1dp"
+        app:cornerRadius="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Cancel"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/primary_100"
+            app:strokeColor="@color/primary_100"
+            app:strokeWidth="1dp"
+            app:cornerRadius="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Save"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/primary_100"
+            android:textColor="@color/white"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout> 

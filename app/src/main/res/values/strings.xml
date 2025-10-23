@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LuxeVista Resort</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="preferences">Preferences</string>
+    <string name="travel_dates">Travel Dates</string>
+    <string name="book_room">Book Room</string>
+    <string name="reserve_service">Reserve Service</string>
+    <string name="view_attractions">Attractions and Offers</string>
+    <string name="view_profile">Profile</string>
+    <string name="room_type">Room Type</string>
+    <string name="max_price">Max Price</string>
+    <string name="service_type">Service Type</string>
+    <string name="select_date">Select Date</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="booking_history">Booking History</string>
+    <string name="attraction_image">Attraction Image</string>
+
+
+</resources>

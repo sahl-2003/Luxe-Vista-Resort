@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LuxeVistaResortApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary_100</item>
+        <item name="colorSecondary">@color/primary_40</item>
+        <item name="android:colorBackground">@color/primary_10</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/primary_100</item>
+        <item name="colorOnBackground">@color/primary_100</item>
+        <item name="colorOnSurface">@color/primary_100</item>
+    </style>
+
+    <style name="Theme.LuxeVistaResortApp" parent="Base.Theme.LuxeVistaResortApp" />
+</resources>

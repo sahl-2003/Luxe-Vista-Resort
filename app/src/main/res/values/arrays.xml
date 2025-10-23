@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="room_types">
+        <item>All</item>
+        <item>Ocean View Suite</item>
+        <item>Deluxe Room</item>
+        <item>Standard Room</item>
+    </string-array>
+
+    <string-array name="sort_options">
+        <item>Price: Low to High</item>
+        <item>Price: High to Low</item>
+    </string-array>
+
+    <string-array name="notification_types">
+        <item>Special Event</item>
+        <item>Discount</item>
+        <item>Service Update</item>
+        <item>General</item>
+    </string-array>
+
+    <string-array name="notification_audiences">
+        <item>All Guests</item>
+        <item>Regular Guests</item>
+        <item>VIP Members</item>
+        <item>Premium Members</item>
+    </string-array>
+
+    <string-array name="service_types">
+        <item>All</item>
+        <item>Spa Treatment</item>
+        <item>Fine Dining</item>
+        <item>Poolside Cabana</item>
+        <item>Guided Beach Tour</item>
+    </string-array>
+
+    <string-array name="recipient_types">
+        <item>All Users</item>
+        <item>User Group</item>
+        <item>Specific User</item>
+    </string-array>
+    <string-array name="user_groups">
+        <item>guest</item>
+        <item>vip</item>
+        <item>admin</item>
+    </string-array>
+
+    <string-array name="availability_options">
+        <item>All</item>
+        <item>Available</item>
+        <item>Unavailable</item>
+    </string-array>
+</resources>

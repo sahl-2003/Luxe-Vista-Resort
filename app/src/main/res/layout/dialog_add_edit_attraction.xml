@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/primary_10">
+
+    <EditText
+        android:id="@+id/attractionNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Attraction Name"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/attractionDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/attractionImageUrlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image URL"
+        android:textColor="@color/primary_100"
+        android:textColorHint="@color/primary_20"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/saveAttractionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="@color/primary_40"
+        android:textColor="@color/white"/>
+</LinearLayout> 

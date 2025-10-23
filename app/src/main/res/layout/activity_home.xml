@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_bg_gradient"
+    android:padding="0dp">
+
+    <!-- Header with logo/avatar and greeting -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="48dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:background="@drawable/rounded_white_with_border"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to LuxeVista Resort"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#222"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+    <!-- CardView for dashboard actions -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="12dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_margin="24dp"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp"
+            android:gravity="center">
+
+            <!-- Book a Room Button -->
+            <Button
+                android:id="@+id/roomBookingButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Book a Room"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/primary_100"
+                android:textColor="@color/white"
+                app:cornerRadius="16dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Reserve Services Button -->
+            <Button
+                android:id="@+id/serviceReservationButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Reserve Services"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/primary_100"
+                android:textColor="@color/white"
+                app:cornerRadius="16dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Explore Attractions Button -->
+            <Button
+                android:id="@+id/attractionsButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Explore Attractions"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/primary_100"
+                android:textColor="@color/white"
+                app:cornerRadius="16dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- My Profile Button -->
+            <Button
+                android:id="@+id/profileButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="My Profile"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/primary_100"
+                android:textColor="@color/white"
+                app:cornerRadius="16dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Notifications Button -->
+            <Button
+                android:id="@+id/notificationsButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Notifications"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/primary_100"
+                android:textColor="@color/white"
+                app:cornerRadius="16dp"
+                android:elevation="4dp"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Logout Button -->
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Logout"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/primary_100"
+                app:strokeColor="@color/primary_100"
+                app:strokeWidth="2dp"
+                app:cornerRadius="16dp"
+                android:elevation="2dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
